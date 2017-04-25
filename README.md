@@ -1,6 +1,7 @@
 # npmtest-grunt-scss-lint
 
-test coverage for  [grunt-scss-lint (v0.5.0)](https://github.com/ahmednuaman/grunt-scss-lint)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-scss-lint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-scss-lint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-scss-lint.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-scss-lint)
+#### basic test coverage for  [grunt-scss-lint (v0.5.0)](https://github.com/ahmednuaman/grunt-scss-lint)  [![npm package](https://img.shields.io/npm/v/npmtest-grunt-scss-lint.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-grunt-scss-lint) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-grunt-scss-lint.svg)](https://travis-ci.org/npmtest/node-npmtest-grunt-scss-lint)
+
 #### Validate `.scss` files with `scss-lint`.
 
 [![NPM](https://nodei.co/npm/grunt-scss-lint.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/grunt-scss-lint)
@@ -9,7 +10,7 @@ test coverage for  [grunt-scss-lint (v0.5.0)](https://github.com/ahmednuaman/gru
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-grunt-scss-lint/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-scss-lint/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-grunt-scss-lint/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-grunt-scss-lint/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-scss-lint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-scss-lint/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-grunt-scss-lint/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-grunt-scss-lint/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-grunt-scss-lint/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-grunt-scss-lint/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-grunt-scss-lint/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-grunt-scss-lint/build/coverage.html/index.html)
 
@@ -114,7 +115,8 @@ test coverage for  [grunt-scss-lint (v0.5.0)](https://github.com/ahmednuaman/gru
         "codeclimate": "CODECLIMATE_REPO_TOKEN=dbf49c8de102d946c65f8195714e9d58591833be9975cd897bae0f0908c05235 codeclimate < coverage/lcov.info",
         "test": "bundle && grunt test"
     },
-    "version": "0.5.0"
+    "version": "0.5.0",
+    "bin": {}
 }
 ```
 
